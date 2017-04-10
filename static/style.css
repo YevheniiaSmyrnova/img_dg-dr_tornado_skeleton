@@ -1,0 +1,107 @@
+body { 
+font-size: 62.5%; 
+font-family: Arial, sans-serif; 
+padding: 0; margin:0; 
+} 
+.content { 
+margin-top:50px; 
+padding: 20px; 
+} 
+
+#drop-files { 
+font-family: 'Raleway', sans-serif; 
+position:relative; 
+width: 500px; 
+height: 140px; 
+margin: 0 auto; 
+background: rgba(0,0,0,0.1); 
+border: 4px dashed #404041; 
+padding-top:80px; 
+text-align: center; 
+font-size: 2.5em; 
+font-weight: bold; 
+} 
+
+#uploadbtn{ 
+width: 185px; 
+} 
+
+#drop-files p { 
+clear:none; 
+padding:0; 
+margin:0; 
+} 
+
+#table{ 
+width: 240px; 
+float: right; 
+padding-left: 10px; 
+border-color: #c3c3c3; 
+font-family: 'Questrial', sans-serif; 
+font-size: 14px; 
+} 
+
+.header { 
+width: 100%; 
+height: 60px; 
+background-color: #404041; 
+} 
+
+.header p{ 
+font-family: 'Questrial', sans-serif; 
+float: left; 
+font-size: 18px; 
+color: #d9d8d8; 
+margin-left: 20px; 
+} 
+
+.result { 
+display: block; 
+position: relative; 
+width: 500px; 
+margin: 0 auto; 
+margin-top: 30px; 
+} 
+
+.resultarea table{ 
+width: 500px; 
+} 
+
+.first-tr { 
+float: left; 
+width: 500px;
+border: 1px solid; 
+border-color: #c3c3c3; 
+background-color: #f3f3f3; 
+} 
+
+.first-tr td{ 
+width: 100px; 
+font-size: 14px; 
+
+} 
+.first-tr td:nth-child(1){ 
+width: 260px; 
+text-align: center; 
+} 
+.first-tr td:nth-child(2){ 
+width: 80px; 
+text-align: center; 
+} 
+.first-tr td:nth-child(3){ 
+width: 160px; 
+text-align: center; 
+} 
+
+#outImage { 
+width: 260px; 
+float: left;
+} 
+
+#table td:nth-child(2n){ 
+width: 160px; 
+text-align: center;
+} 
+#table td:nth-child(2n+1){ 
+width: 80px; 
+}
